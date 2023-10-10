@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style the header */
+  h1 {
+    font-family: 'Arial', sans-serif; /* Web font */
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 10px; /* Rounded border */
+  }
+
+  /* Style the image */
+  img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Style the sections */
+  div {
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+
+  /* Style the About Me section */
+  h2 {
+    text-decoration: underline;
+  }
+
+  /* Style the quote in About Me section */
+  pre {
+    font-style: italic;
+  }
+
+  /* Style the list items in the Skills section */
+  ul li {
+    list-style: square;
+  }
+
+  /* Style the Achievements section */
+  ul {
+    list-style: none; /* Remove bullets */
+  }
+
+  /* Style the Projects section */
+  p {
+    font-weight: bold;
+  }
+
+  /* Style the video */
+  video {
+    width: 100%;
+  }
+
+  /* Style the Contact Me section */
+  ul a {
+    text-decoration: none; /* Remove underlines from links */
+  }
+
+  /* Style the footer */
+  footer {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+  }
+
+  /* Style pseudo-classes */
+  h2:hover {
+    color: darkblue;
+  }
+
+  /* Style pseudo-elements */
+  p::first-letter {
+    font-size: 150%;
+    color: red;
+  }
